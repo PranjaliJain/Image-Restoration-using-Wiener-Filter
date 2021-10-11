@@ -9,8 +9,8 @@ To run the code for Image Restoration using Wiener Filter, use jupyter notebook 
 file Image_restoration_Wiener_Filter.ipynb and run the file.
 
 The training of Wiener filter on Lena image can also be run using terminal
-> python Image_restoration_Wiener_Filter.py
-> python trainingLena.py
+-> python Image_restoration_Wiener_Filter.py
+-> python trainingLena.py
 
 trainingLena.py prompts the user to train the filter using Lena image. The user can enter a
 desired value for K and size and sigma for PSF to evaluate which K and PSF performs best
@@ -20,9 +20,9 @@ While testing the filter on other images the values of Point Spread Function and
 same as that for training Lena image.
 
 The testing of the wiener filter can be done using terminal as follows :
-> python harry.py
-> python car.py
-> python streetsign.py
+-> python harry.py
+-> python car.py
+-> python streetsign.py
 
 ## Libraries Used:
 - cv2
